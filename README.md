@@ -33,6 +33,12 @@ web site</a>:
 <li><b>Sub_metering_3</b>: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.</li>
 </ol>
 
+## Instructions for use of automated script
+
+<b>WARNING:</b> The script assumes that have have changed your R working directory to a new directory and that you are not concerned with loss of files in the folder. The script will also remove any variables currently running in your R session. Run the script at your own risk.
+
+<b>Notes:</b> The scripts will automatically download and unzip the required data for the plots. During the process, a data sub-folder will be created with both the zipped file and unzipped text file which is the source of the data. The script will check that these files already exist, and subsequently skip download if they do. The rest of the script processes the text file as per the instructions of the project as shown below.
+
 ## Loading the data
 
 
